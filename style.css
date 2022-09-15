@@ -56,15 +56,16 @@ a:hover {
 }
 
 .main-image {
-    width: 500px;
+    width: 600px;
     height: 300px;
 }
 
 .main-container {
     display: flex;
-    margin: 0 auto;
+    margin: 2em auto;
     align-items: center;
-    max-width: 80vw;
+    justify-content: center;
+    background-color: #394564;
 }
 
 .hero-section {
@@ -74,6 +75,14 @@ a:hover {
     align-items: center;
     text-align: center;
     margin-right: 5em;
+}
+
+.background-highlight {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    height: 45vh;
+    width: 80vw;
 }
 
 
