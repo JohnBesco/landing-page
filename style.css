@@ -60,7 +60,7 @@ a:hover {
     height: 300px;
 }
 
-.main-container {
+.mainpage-container {
     display: flex;
     margin: 2em auto;
     align-items: center;
@@ -84,5 +84,14 @@ a:hover {
     height: 45vh;
     width: 80vw;
 }
+
+/* @media (max-width: 900px) {
+    .main-container,
+    .hero-section,
+    .background-highlight {
+        display: flex;
+        flex-direction: column;
+    }    
+} */
 
 
