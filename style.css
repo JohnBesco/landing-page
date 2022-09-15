@@ -1,0 +1,61 @@
+@import url('https://fonts.googleapis.com/css?family=Londrina Solid');
+
+*, *::before, *::after {
+    box-sizing: border-box;
+    color: white;
+    font-family: Londrina Solid, sans-serif;
+
+}
+
+body {
+    background-color: #000518 ;
+}
+
+.main-logo {
+    display: flex;
+    margin: 1em 1.5em;
+}
+
+li {
+    list-style: none;
+}
+
+a {
+    margin: 1em;
+    padding: 0;
+    text-decoration: none;
+    font-size: 28px;
+}
+
+a:hover {
+    color: grey;
+}
+
+.highlight-text {
+    color: #FF0000;
+}
+
+.main-header {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    width: 90vw;
+}
+
+.main-navbar {
+    display: flex;
+}
+
+.main-image {
+    width: 500px;
+    height: 300px;
+}
+
+.main-container {
+    display: flex;
+    margin: 0 auto;
+    align-items: center;
+    max-width: 80vw;
+}
+
+
