@@ -139,14 +139,11 @@ a:hover {
 
 .image-container {
     display: flex;
-    justify-content: center;
-    align-items: center;
+    width: 80vw;
+    justify-content: space-between;
     margin: 0 auto;
 }
 
 .image-container img {
     max-width: 300px;
 }
-
-
-
