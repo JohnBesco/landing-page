@@ -143,5 +143,8 @@ a:hover {
     flex-direction: column;
 }
 
+.image-container img {
+    max-width: 300px;
+}
 
 
