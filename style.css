@@ -131,5 +131,17 @@ a:hover {
     text-align: center;
 }
 
+.instructors-container {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+.image-container {
+    display: flex;
+    flex-direction: column;
+}
+
 
 
