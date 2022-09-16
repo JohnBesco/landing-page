@@ -131,20 +131,22 @@ a:hover {
     text-align: center;
 }
 
-.instructors-container {
+.title-container {
     display: flex;
-    flex-direction: column;
     justify-content: center;
-    align-items: center;
+    margin: 5em auto;
 }
 
 .image-container {
     display: flex;
-    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    margin: 0 auto;
 }
 
 .image-container img {
     max-width: 300px;
 }
+
 
 
