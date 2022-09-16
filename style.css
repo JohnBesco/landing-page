@@ -74,7 +74,6 @@ a:hover {
     justify-content: center;
     align-items: center;
     margin: 5em 5em;
-    flex-grow: 0 ;
 }
 
 .background-highlight {
@@ -125,6 +124,7 @@ a:hover {
 .about-us-text {
     margin: 0 5em;
     text-align: center;
+    flex: 1;
 }
 
 .hero-text {
