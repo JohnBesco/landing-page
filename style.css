@@ -131,38 +131,21 @@ a:hover {
     text-align: center;
 }
 
-.title-container {
+.title-wrapper {
     display: flex;
     justify-content: center;
     align-self: center;
     margin: 5em auto;
+    border: 5px red solid;
+    height: 5em;
 }
 
-.image-container {
-    display: flex;
-    width: 80vw;
-    justify-content: space-between;
-    margin: 0 auto;
-}
-
-.image-container img {
-    max-width: 300px;
+.img-with-text {
+    text-align: center;
 }
 
 .instructors-container {
     display: flex;
-    flex-direction: column;
-}
-
-/* .description-container {
-    display: flex;
     width: 80vw;
-    justify-content: space-between;
     margin: 0 auto;
-} */
-
-.text-container {
-    display: flex;
-    flex-direction: column;
-    text-align: center;
 }
