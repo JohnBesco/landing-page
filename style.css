@@ -134,6 +134,7 @@ a:hover {
 .title-container {
     display: flex;
     justify-content: center;
+    align-self: center;
     margin: 5em auto;
 }
 
@@ -146,4 +147,22 @@ a:hover {
 
 .image-container img {
     max-width: 300px;
+}
+
+.instructors-container {
+    display: flex;
+    flex-direction: column;
+}
+
+/* .description-container {
+    display: flex;
+    width: 80vw;
+    justify-content: space-between;
+    margin: 0 auto;
+} */
+
+.text-container {
+    display: flex;
+    flex-direction: column;
+    text-align: center;
 }
