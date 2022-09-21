@@ -136,7 +136,6 @@ a:hover {
     justify-content: center;
     align-self: center;
     margin: 5em auto;
-    border: 5px red solid;
     height: 5em;
 }
 
@@ -148,4 +147,12 @@ a:hover {
     display: flex;
     width: 80vw;
     margin: 0 auto;
+    text-align: center;
+    align-items: center;
+    justify-content: space-around;
+}
+
+
+.subtext {
+    max-width: 350px;
 }
