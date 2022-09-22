@@ -11,6 +11,7 @@ body {
     background-color: #000518 ;
 }
 
+
 .main-logo {
     display: flex;
     margin: 1em 1.5em;
@@ -39,6 +40,11 @@ a:hover {
     border-radius: 10px;
     font-size: 20px;
 }
+
+.btn:hover {
+    background-color: #91D6FC;
+}
+
 
 .highlight-text {
     color: #FF0000;
@@ -249,6 +255,10 @@ a:hover {
     font-size: 35px;
     margin-top: -.5em;
     margin-bottom: -1em;
+}
+
+#call-to-action-btn:hover {
+    background-color: #91D6FC;
 }
 
 #call-to-action {
