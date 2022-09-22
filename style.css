@@ -224,6 +224,7 @@ a:hover {
 
 .form-text {
     font-size: 30px;
+    margin-top: -1em;
 }
 
 .input-field {
@@ -231,7 +232,15 @@ a:hover {
     border: 2px solid #3965FF;
     border-radius: 15px;
     height: 4em;
-    margin-top: -2em;
+    margin-top: -3em;
+}
+
+#call-to-action-btn {
+    height: 50px;
+    background-color: #00A3FF;
+    border: none;
+    border-radius: 15px;
+    font-size: 35px;
 }
 
 
