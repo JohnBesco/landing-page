@@ -163,7 +163,7 @@ a:hover {
     height: 500px;
     width: 100vw;
     background-color: #394564;
-    margin: 5em auto;
+    margin: 3em auto;
 }
 
 .testimonies-container {
@@ -188,6 +188,10 @@ a:hover {
 .testimony-img {
     display: flex;
     margin: 1.5em auto;
+}
+
+#test-highlight {
+    border-bottom: solid 2px #FF0000;
 }
 
 
