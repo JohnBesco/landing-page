@@ -80,11 +80,11 @@ a:hover {
     display: flex;
     align-items: center;
     justify-content: center;
-    height: 45vh;
+    height: 500px;
     width: 80vw;
 }
 
-@media (max-width: 900px) {
+@media (max-width: 390px) {
     body,
     .main-page-container {
         display: flex;
@@ -155,4 +155,11 @@ a:hover {
 
 .subtext {
     max-width: 350px;
+}
+
+.testimonies {
+    height: 500px;
+    width: 100vw;
+    background-color: #394564;
+    margin: 5em auto;
 }
