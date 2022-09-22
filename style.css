@@ -135,7 +135,7 @@ a:hover {
     display: flex;
     justify-content: center;
     align-self: center;
-    margin: 5em auto;
+    margin: 6em auto;
     height: 5em;
 }
 
@@ -162,4 +162,8 @@ a:hover {
     width: 100vw;
     background-color: #394564;
     margin: 5em auto;
+}
+
+.title {
+    margin-top: 2em;
 }
