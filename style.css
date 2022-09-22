@@ -259,4 +259,33 @@ a:hover {
     margin-left: 25em;
 }
 
+.footer-container {
+    display: flex;
+    flex-direction: column;
+    background-color: #394564;
+    width: 100vw;
+    margin-top: 10em;
+}
+
+.footer-container a {
+    margin: 0;
+}
+
+.main-footer {
+    margin-top: auto;
+    display: flex;
+    justify-content: space-evenly;
+}
+
+.footer-icon {
+    margin-bottom: .2em;
+}
+
+.footer-icon-container {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
 
