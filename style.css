@@ -84,7 +84,7 @@ a:hover {
     width: 80vw;
 }
 
-@media (max-width: 390px) {
+@media (max-width: 900px) {
     body,
     .main-page-container {
         display: flex;
@@ -147,6 +147,7 @@ a:hover {
     display: flex;
     width: 80vw;
     margin: 0 auto;
+    gap: 3em;
     text-align: center;
     align-items: center;
     justify-content: space-around;
@@ -155,6 +156,7 @@ a:hover {
 
 .subtext {
     max-width: 350px;
+    margin-top: 2em;
 }
 
 .testimonies {
@@ -166,12 +168,26 @@ a:hover {
 
 .testimonies-container {
     display: flex;
-    justify-content: center;
+    justify-content: space-evenly;
     align-items: center;
     gap: 3em;
 }
 
 .title {
-    margin-top: 2em;
+    margin-top: 1em;
 }
+
+.testimony-wrapper {
+    width: 200px;
+    height: 200px;
+    text-align: center;
+    background-color: #9DCEDD;
+    border-radius: 20px;
+}
+
+.testimony-img {
+    display: flex;
+    margin: 1.5em auto;
+}
+
 
