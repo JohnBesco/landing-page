@@ -238,6 +238,10 @@ a:hover {
     margin-top: 3em;
 }
 
+#quote {
+    font-size: 25px;
+}
+
 #quote-spacing {
     margin-left: 25em;
 }
