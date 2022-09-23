@@ -11,7 +11,6 @@ body {
     background-color: #000518 ;
 }
 
-
 .main-logo {
     display: flex;
     margin: 1em 1.5em;
@@ -90,31 +89,6 @@ a:hover {
     width: 80vw;
 }
 
-@media (max-width: 900px) {
-    body,
-    .main-page-container {
-        display: flex;
-        flex-direction: column;
-        justify-content: space-evenly;
-        align-items: center;
-        border-radius: 20px;
-    }
-
-    .main-image, 
-    .about-us-image {
-        display: none;
-    }
-
-    .main-header {
-        flex-wrap: wrap;
-        font-size: 5px;
-        white-space: nowrap;
-        display: flex;
-        justify-content: space-between;
-        margin-left: -16em;
-    }
-} 
-
 .about-us-container {
     display: flex;
     justify-content: space-between;
@@ -158,7 +132,6 @@ a:hover {
     align-items: center;
     justify-content: space-around;
 }
-
 
 .subtext {
     max-width: 350px;
